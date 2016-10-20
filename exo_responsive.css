@@ -1,0 +1,188 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: sans-serif;
+  color: #FFF;
+  background-color: #232947;
+}
+/************HEADER***********/
+span{
+	background-color: white;
+	color:black;
+	padding: 3px;
+}
+
+header{
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 350px;
+}
+
+.ban{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+}
+
+.titreban{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+
+h1{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.septitre{
+  width:85%;
+  margin-left: 100px;
+
+}
+.paraban{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100px;
+}
+
+
+.paraban p{
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 15px;
+}
+
+.btn_inscr{
+  margin-top: 15px;
+	height: 50px;
+	width: 250px;
+  background: none;
+  color: #FFF;
+  border: 2px solid white;
+}
+/************END HEADER***********/
+
+/************MAIN************/
+main{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 1050px;
+}
+
+.bloc1, .bloc2, .bloc3{
+  display: flex;
+  width: 100%;
+  height: 350px;
+}
+
+.imgtop, .imgcenter, .imgbott{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.imgtop2, .imgcenter2, .imgbott2{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  flex:2;
+}
+
+.texte{
+  z-index: 1
+}
+
+.imgtop{
+  background-image: url("images/pic01.jpg");
+  background-size: cover;
+}
+
+.imgtop2{
+  background-image: url("images/pic02.jpg");
+  background-size: cover;
+}
+
+.imgcenter{
+  background-image: url("images/pic04.jpg");
+  background-size: cover;
+}
+
+.imgcenter2{
+  background-image: url("images/pic03.jpg");
+  background-size: cover;
+}
+
+.imgbott{
+  background-image: url("images/pic05.jpg");
+  background-size: cover;
+}
+
+.imgbott2{
+  background-image: url("images/pic06.jpg");
+  background-size: cover;
+}
+
+hr{
+  color: #FFF;
+}
+a{
+  text-decoration: none;
+}
+/*__________hover____________*/
+/*.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 30%;
+    height: 300px;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-image: url(pic01.jpg);
+    z-index: 1;
+}
+
+.box::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,50,220,0.5);
+    -moz-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    z-index: 2;
+}
+
+.box:hover::before {
+    opacity: 0;
+}
+
+.texte {
+    margin-left: -100%;
+    z-index: 3;
+}
+
+hr {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}*/
+/*___________END hover___________*/
